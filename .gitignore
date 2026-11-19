@@ -1,0 +1,19 @@
+# Keep local research, diagnostics and generated artifacts out of the repository.
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.pdb
+*.dll
+*.zip
+*.log
+.env
+.env.*
+docs/*
+!docs/DEVELOPMENT.md
+!docs/CHANGELOG.md
+插件/
+.build/
+.publish/
+验证记录*.json

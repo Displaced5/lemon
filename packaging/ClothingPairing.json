@@ -1,0 +1,17 @@
+{
+  "Author": "Displaced",
+  "Name": "Clothing pairing",
+  "InternalName": "ClothingPairing",
+  "RepoUrl": "https://github.com/Displaced5/lemon",
+  "AssemblyVersion": "1.1.3.0",
+  "DalamudApiLevel": 15,
+  "ApplicableVersion": "any",
+  "Punchline": "分别记忆面部配饰与时尚配饰，中断结束后恢复。",
+  "Description": "按角色分别记录一件时尚配饰和一件面部配饰（含颜色），沿用 B 方案，出本后等待可用时恢复。面部配饰默认支持切换职业、切换套装后缺失恢复，也支持同职业切换不同套装。支持下坐骑、脱战和普通切区触发；两类独立开关、暂停及清除记忆。主动移除后暂停对应项，有限重试并确认实际结果。命令 /cpair。国服 Dalamud API 15。",
+  "Changelog": "1.1.3：Dalamud 独立版单独发布至 lemon 仓库，更新源码、发布下载及订阅地址。插件名称、内部标识、命令、配置和 B 方案恢复行为保持一致。",
+  "Tags": ["时尚配饰", "面部配饰", "Fashion Accessories", "Facewear"],
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "SupportsProfiles": true
+}

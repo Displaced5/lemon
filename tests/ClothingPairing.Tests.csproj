@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\src\Core\*.cs" Link="Core\%(Filename)%(Extension)" />
+    <Reference Include="Newtonsoft.Json" HintPath="$(DalamudDir)\Newtonsoft.Json.dll" />
+  </ItemGroup>
+</Project>
